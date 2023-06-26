@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Newton's Method</title>
+</head>
+<body id="body">
+    <div class="container">   
+        <p class="h3">Change the Function of x by clicking <span>F12</span> or go to the console by right Click and choose inspect. </p>
+        <input type="text" class="input" name="math" id="input" placeholder="Please input math to calculate" value="">
+        <button onclick="findx()" id="btn">Newton's Method</button>
+        <button onclick="reset()" id="btn2">Reset Method</button>
+    </div>
+    <div class="d-flex">
+        <h3 class="p2">value of "x"</h3>
+        <h3 class="p2"> acurracy </h3>
+        <h3 class="p2"> index</h3>
+    </div>
+    <div id="container2" style="position: absolute;">
+    </div>
+</body>
+<script src="./src/js/main.js"></script>
+</html>
